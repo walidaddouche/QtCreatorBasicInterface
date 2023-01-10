@@ -12,5 +12,8 @@ class Dialog : public QDialog, private Ui::Dialog
 public:
     Dialog(QWidget *parent = nullptr);
     ~Dialog();
+
+ private slots :
+    void OnColorChange();
 };
 #endif // DIALOG_H
